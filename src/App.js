@@ -1,5 +1,5 @@
 import "./App.css";
-import freeCodeCampLogo from "./imagenes/logo-freecodecamp.png";
+import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png";
 
 function App() {
   return (
