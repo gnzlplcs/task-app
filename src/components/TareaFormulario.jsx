@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import "../styles/TareaFormulario.css";
 
 const TareaFormulario = (props) => {
@@ -11,10 +12,12 @@ const TareaFormulario = (props) => {
   const manejarEnvio = (e) => {
     e.preventDefault();
     const tareaNueva = {
-      id: "34545",
+      id: uuidv4(),
       texto: input,
       completada: false,
     };
+
+    console.log(tareaNueva)
   };
 
   return (
