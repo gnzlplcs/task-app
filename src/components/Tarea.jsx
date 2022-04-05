@@ -10,10 +10,10 @@ const Tarea = ({ id, texto, completada, completarTarea, eliminarTarea }) => {
       }
       onClick={() => completarTarea(id)}
     >
-      <div className="tarea-texto" onClick={() => eliminarTarea(id)}>
+      <div className="tarea-texto" >
         {texto}
       </div>
-      <div className="tarea-contenedor-iconos">
+      <div className="tarea-contenedor-iconos" onClick={() => eliminarTarea(id)}>
         <AiOutlineCloseCircle className="tarea-icono" />
       </div>
     </div>
