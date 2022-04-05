@@ -1,7 +1,6 @@
 import "./App.css";
 import Logo from "./components/Logo";
-// import Tarea from "./components/Tarea";
-import TareaFormulario from "./components/TareaFormulario";
+import ListaDeTareas from "./components/ListaDeTareas";
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <div className="tareas-lista-principal">
         <h1>Mis Tareas</h1>
         {/* <Tarea texto='Aprender React'/> */}
-        <TareaFormulario />
+        <ListaDeTareas />
       </div>
     </div>
   );
