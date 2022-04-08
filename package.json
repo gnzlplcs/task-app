@@ -1,5 +1,6 @@
 {
   "name": "task-app",
+  "homepage": "https://gnzlplcs.github.io/task-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
