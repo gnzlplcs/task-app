@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/task-app/static/css/main.1ed7b2d6.css",
+    "main.css": "/task-app/static/css/main.f8585f1c.css",
     "main.js": "/task-app/static/js/main.207866ac.js",
     "static/media/freecodecamp-logo.png": "/task-app/static/media/freecodecamp-logo.5486935b905c7949600c.png",
     "index.html": "/task-app/index.html",
-    "main.1ed7b2d6.css.map": "/task-app/static/css/main.1ed7b2d6.css.map",
+    "main.f8585f1c.css.map": "/task-app/static/css/main.f8585f1c.css.map",
     "main.207866ac.js.map": "/task-app/static/js/main.207866ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ed7b2d6.css",
+    "static/css/main.f8585f1c.css",
     "static/js/main.207866ac.js"
   ]
 }
