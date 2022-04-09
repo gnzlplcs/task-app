@@ -18,6 +18,7 @@ const TareaFormulario = (props) => {
     };
 
     props.onSubmit(tareaNueva);
+    setInput("");
   };
 
   return (
@@ -27,6 +28,7 @@ const TareaFormulario = (props) => {
         className="tarea-input"
         placeholder="Escribe una tarea"
         name="texto"
+        value={input}
         onChange={manejarCambio}
       />
       <button className="tarea-boton">Agregar tarea</button>
