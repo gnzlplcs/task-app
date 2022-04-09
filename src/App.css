@@ -37,3 +37,12 @@ h1 {
   margin: 10px;
   border-radius: 26px;
 }
+
+@media screen and (max-width: 540px) {
+  .tareas-lista-principal {
+    width: 95vw;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}

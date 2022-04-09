@@ -27,3 +27,15 @@
   background: #00471b;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 540px) {
+  .tarea-input {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .tarea-boton {
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+  }
+}

@@ -10,3 +10,9 @@
   width: 400px;
   height: 50px;
 }
+
+@media screen and (max-width: 540px) {
+  .freecodecamp-logo-contenedor {
+    display: none;
+  }
+}
