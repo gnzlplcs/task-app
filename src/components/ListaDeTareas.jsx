@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import TareaFormulario from "../components/TareaFormulario";
 import Tarea from "./Tarea";
 import "../styles/ListaDeTareas.css";
 
+const initialState = JSON.parse(localStorage.getItem('tareas'));
+
 const ListaDeTareas = () => {
-  const [tareas, setTareas] = useState([]);
+  const [tareas, setTareas] = useState(initialState || []);
+
+  useEffect(() => {
+    window.localStorage.setItem('tareas', JSON.stringify(tareas))
+  }, [tareas]);
 
   const agregarTarea = (tarea) => {
     if (tarea.texto.trim()) {
