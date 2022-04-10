@@ -39,6 +39,11 @@ h1 {
 }
 
 @media screen and (max-width: 540px) {
+  html,
+  body {
+    margin-top: 10px;
+  }
+
   .tareas-lista-principal {
     width: 95vw;
     margin: 5px;
